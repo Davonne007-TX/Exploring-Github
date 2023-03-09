@@ -1,0 +1,105 @@
+/*html*/
+
+* {
+    box-sizing: border-box;
+}
+
+
+/*header*/
+.header {
+    display: inline;
+    width: 100%;
+    height: auto;
+    margin-left: 350px;
+    overflow: hidden;
+   
+    
+}
+
+.order {
+    background-color: #c8102e;
+    color: white;
+    border-radius: 20px;
+    font-family: 'Lobster', cursive, sans-serif;
+    width: 150px;
+    font-size: 12pt;
+}
+
+.order:hover {
+    cursor: pointer;
+    color: #0b6a38;
+}
+
+.signIn {
+    width: 100%;
+    display: inline;
+    color: #0b6a38;
+    font-family: 'Lobster', cursive;
+    margin-left: 300px;
+}
+
+.join, .location {
+    display: inline;
+}
+
+.join:hover {
+    text-decoration: underline;
+    cursor: pointer; 
+}
+
+.location:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.donutIcon:hover {
+    cursor: pointer;
+}
+
+.magnify:hover {
+    cursor: pointer;
+}
+
+
+/* @media screen and (max-width: 500px) {
+    .header {
+       width: 100%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .signIn, .location {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+*/
+
+/*navigation*/
+ul {
+    list-style-type: none;
+}
+
+a, li {
+    color: #0b6a38;
+    text-decoration: none;
+    font-size: 14pt;
+    font-family: 'Lobster', cursive;
+    padding: 10px;
+}
+
+li:hover {
+    color:#c8102e;
+    cursor: pointer;
+}
+
+/*body*/
+.picDonuts {
+    width: 100%;
+    height: auto;
+    max-width: 600px;
+    display: block;
+    margin-top: -580px;
+    margin-left: 400px;
+}
